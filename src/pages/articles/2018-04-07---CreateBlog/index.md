@@ -1,5 +1,5 @@
 ---
-title: "Gatsby로 블로그 만들기"
+title: "Gatsby로 Blog 만들기"
 date: "2018-04-04T16:13:00.000Z"
 layout: post
 draft: false
@@ -42,5 +42,17 @@ gatsby develop
 
 블로그가 실행되서 localhost:8000 으로 접속하면... 모르는 사람의 블로그가 나온다.
 ![lumen blog](./firstblog.png)
-여기서 부터 모르는 사람의 블로그를 내 블로그로 만드는 작업을 해야한다.ㅠㅠ(화이팅!)
+여기서 부터 모르는 사람의 블로그를 내 블로그로 만드는 작업을 해야한다.
+프로필 사진도 바꾸고 이름도 바꾸고 등등등등...(Fighting)
+
+## 배포하기
+배포는 [Netlify](https://www.netlify.com/) 사이트를 이용하기로 결정했다.
+[Github Pages](https://www.gatsbyjs.org/docs/gatsby-starters/)를 고민 했지만,
+Netlify가 자동으로 빌드도 SSL도 무료적용 도메인도 지정할 수 있어서 더 좋은거 같다.
+[여기](https://www.netlify.com/docs/)에 자세히 설명되어있다.
+설명대로 배포를 하면 짜잔~
+![my blog](./myblog.png)
+따근따근한 내 블로그가 나오는데 먼가 많이 썰렁하다.
+
+### 앞으로 개발하는 내용들을 모두 이 블로그에 올리기를 다짐하고, 다짐하고 다짐하며...
 
