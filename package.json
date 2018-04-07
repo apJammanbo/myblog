@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
-  "name": "JammanboBlog",
-  "description": "JammanboBlog",
+  "version": "2.0.2",
+  "name": "gatsby-starter-lumen",
+  "description": "Simple starter for Gatsby",
   "main": "n/a",
   "scripts": {
-    "develop": "jammanbo",
+    "develop": "gatsby develop",
     "build": "gatsby build",
     "clean:public": "rm -rf public",
     "clean": "npm run clean:public",
@@ -12,16 +12,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
-  "repository": "git+https://github.com/apJammanbo/myblog.git",
+  "repository": "git+https://github.com/alxshelepenok/gatsby-starter-lumen.git",
   "keywords": [
     "gatsby",
     "blog",
     "react",
     "theme",
-    "starter",
-    "jammanbo"
+    "starter"
   ],
-  "author": "Jammanbo <apjammanbo@gmail.com>",
+  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "gatsby": "^1.9.164",
