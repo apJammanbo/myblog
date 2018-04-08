@@ -27,7 +27,7 @@ npm install --global gatsby-cli
 ```
 
 #### [Starter](https://www.gatsbyjs.org/docs/gatsby-starters/) 이용하여 설치하기(테마포함)<br/>
-이미 잘 만들어진 Starter를 이용하여 시작하면 해야하는 고생을 조금 줄일 수 있다.
+이미 잘 만들어진 Starter를 이용하면 정말 쉽게 블로그를 시작할 수 있다.
 가장 보편적으로 보이는 [Lumen Starter](https://github.com/alxshelepenok/gatsby-starter-lumen) 를 이용하여 시작했다.
 만들고자 하는 폴더에 가서 하기 명령어를 실행하면 폴더가 생성되고 폴더안에 파일들이 생성된다.
 ```
@@ -48,7 +48,7 @@ gatsby develop
 ## 배포하기
 배포는 [Netlify](https://www.netlify.com/) 사이트를 이용하기로 결정했다.
 [Github Pages](https://www.gatsbyjs.org/docs/gatsby-starters/)를 고민 했지만,
-Netlify가 자동으로 빌드도 SSL도 무료적용 도메인도 지정할 수 있어서 더 좋은거 같다.
+Netlify가 지원하는  자동빌드, SSL, 도메인 등이 너무 끌렸다.
 [여기](https://www.netlify.com/docs/)에 자세히 설명되어있다.
 설명대로 배포를 하면 짜잔~
 ![my blog](./myblog.png)
