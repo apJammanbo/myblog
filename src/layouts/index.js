@@ -7,10 +7,10 @@ class Layout extends React.Component {
 		const { children } = this.props;
 
 		return (
-            <div className="layout">
-              <Helmet defaultTitle="Jammanbo's Blog" />
+			<div className="layout">
+				<Helmet defaultTitle="Jammanbo's Blog" />
 				{children()}
-            </div>
+			</div>
 		);
 	}
 }
